@@ -5,7 +5,7 @@ from pytube import YouTube
 url = input("Quel est le lien de la vidéo ? : ")
 yt = YouTube(url)
 
-#I request verification that it is the right video
+#I request verification that it is the right video 
 
 print("Est-ce bien cette vidéo :", yt.title, "(y or n)")
 validation = input()
