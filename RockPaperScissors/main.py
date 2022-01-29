@@ -15,7 +15,7 @@ while nbround<int(nb) :
 	user = int(input("Que souhaitez vous jouez ?\n   1 : La pierre\n   2 : La feuille\n   3 : Le ciseaux\n"))
 	com = randint(1, 3)
 	print(name + " : " + game[user-1])
-	print("Ordi :" + game[com-1])
+	print("Ordi : " + game[com-1])
 	#The result is checked with a calculation
 	if user-1 == com or user-1 == com-3 :
 		scoreUser += 1
