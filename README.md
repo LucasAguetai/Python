@@ -9,3 +9,7 @@ Choose the type of password, then the number of characters, then the program gen
 
 ## Rock paper scissors game
 When you run the program, enter your name, the number of games you want to play, and that’s it! Choose 1 for rock, 2 for paper, and 3 for scissors
+
+## qrcode generator
+
+You have to enter what you want to transform into qrcode in the program, and the qrcode comes in image form. 
