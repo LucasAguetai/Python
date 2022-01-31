@@ -16,3 +16,8 @@ When you run the program, enter your name, the number of games you want to play,
 ## qrcode generator :
 This program transforms text or a link into qr code and saves it into png. 
 You have to enter what you want to transform into qrcode in the program, and the qrcode comes in image form. 
+
+## Dice Rolling Simulator :
+
+This program simulates a dice roll. 
+Indicates the number of faces, and that gives you a number at hThis program simulates a dice roll. Put in the front number, and that gives you a random number. 
