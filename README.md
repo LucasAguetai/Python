@@ -21,3 +21,7 @@ You have to enter what you want to transform into qrcode in the program, and the
 
 This program simulates a dice roll. 
 Indicates the number of faces, and that gives you a number at hThis program simulates a dice roll. Put in the front number, and that gives you a random number. 
+
+## Hangman :
+
+This program is just a hangman. To use it, run it, then choose the type of words and guess the missing letters!
