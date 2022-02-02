@@ -8,6 +8,10 @@ tout = ["burger", "tomate", "salade", "ognion", "steak", "avocat", "pate", "riz"
 mode = int(input("Avec quelle type de mots voulez vous jouez ?\n   1 : Nourriture\n   2 : Animaux\n   3 : Autre\n   4 : Tout\n"))
 
 def replace_caracter(word, to_return, letter) :
+	'''
+	Take as parameter a word, the string to return and a letter, and look at the locations
+	of the letter in the word, and puts it in the same place in the string to be returned.
+	'''
 	i=1
 	res = ""
 	res += word[0]
@@ -22,6 +26,10 @@ def replace_caracter(word, to_return, letter) :
 
 
 def game(categorie) :
+	'''
+	Take as parameter an array of words, and make a hangman: namely one marks the first,
+	the last letter and the same letter in the word of a random word in the array, and asks for a letter and checks whether it is in the word or not. 
+	'''
 	end = "not_end"
 	word = choice(categorie)
 	number_letter = len(word)
@@ -37,7 +45,7 @@ def game(categorie) :
 	form = replace_caracter(word, form, form[0])
 	form = replace_caracter(word, form, form[number_letter-1])
 
-
+	#Check if the player has won or lost
 	while end != "end" :
 		print(form)
 		rep = input()
@@ -55,7 +63,7 @@ def game(categorie) :
 			print("Dommage, le mot étais "+word)
 			end = "end"
 		
-
+#Game mode
 if mode == 1 :
 	game(food)
 elif mode == 2 :
