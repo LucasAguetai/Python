@@ -25,7 +25,7 @@ while nbround<int(nb) :
 		print("Dommage, vous avez perdu !\n"+str(scoreUser)+"-"+str(scoreComputer))
 	else :
 		print("Égalité ! le score reste donc à "+str(scoreUser)+"-"+str(scoreComputer))
-	nbround +=1
+	nbround +=1 
 
 #I display the result
 if scoreUser > scoreComputer :
